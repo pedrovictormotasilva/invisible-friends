@@ -76,7 +76,7 @@ section {
 
 .content-two {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -135,4 +135,15 @@ section {
     width: 100%;
     height: 100vh;
   }
+}
+
+button {
+  padding-top: 2em;
+  border-radius: 1em;
+  padding: 1em;
+  align-items: center;
+  cursor: pointer;
+}
+button:hover {
+  color: #b8ccd9;
 }
